@@ -31,9 +31,9 @@ With those concepts in mind, you are well on your road to become a proficient Ja
 
 The following concepts are also key to understand asynchronous programming, which is one of the fundamental parts of Node.js:
 
-- [Asynchronous programming and callbacks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
-- [Timers](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
-- [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
-- [Async and Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
-- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
-- [The Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+- [Asynchronous programming and callbacks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing) - Executing code without blocking the main thread, using callbacks to handle operations once completed.
+- [Timers](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout) - Functions like setTimeout() and setInterval() to schedule code execution after a delay or at regular intervals.
+- [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) - Objects representing the eventual completion or failure of asynchronous operations, enabling chaining with .then() and .catch().
+- [Async and Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) - Syntactic sugar for Promises, allowing asynchronous code to be written in a synchronous style.
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) - Functions that retain access to their lexical scope even when executed outside that scope.
+- [The Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) - A mechanism that manages asynchronous callbacks by queuing and executing them after the main call stack is empty.
